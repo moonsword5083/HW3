@@ -14,6 +14,8 @@
 		3BEBDE93245EF80B00C35BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBDE92245EF80B00C35BF6 /* Assets.xcassets */; };
 		3BEBDE96245EF80B00C35BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBDE95245EF80B00C35BF6 /* Preview Assets.xcassets */; };
 		3BEBDE99245EF80B00C35BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBDE97245EF80B00C35BF6 /* LaunchScreen.storyboard */; };
+		3BEBDEA1245EF87700C35BF6 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBDEA0245EF87700C35BF6 /* SecondPage.swift */; };
+		3BEBDEA3245EF8C200C35BF6 /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBDEA2245EF8C200C35BF6 /* videoplayback.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3BEBDE95245EF80B00C35BF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BEBDE98245EF80B00C35BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BEBDE9A245EF80B00C35BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEBDEA0245EF87700C35BF6 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		3BEBDEA2245EF8C200C35BF6 /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoplayback.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		3BEBDE88245EF80A00C35BF6 /* HW3 */ = {
 			isa = PBXGroup;
 			children = (
+				3BEBDEA2245EF8C200C35BF6 /* videoplayback.mp4 */,
 				3BEBDE89245EF80A00C35BF6 /* AppDelegate.swift */,
 				3BEBDE8B245EF80A00C35BF6 /* SceneDelegate.swift */,
 				3BEBDE90245EF80A00C35BF6 /* ContentView.swift */,
+				3BEBDEA0245EF87700C35BF6 /* SecondPage.swift */,
 				3BEBDE92245EF80B00C35BF6 /* Assets.xcassets */,
 				3BEBDE97245EF80B00C35BF6 /* LaunchScreen.storyboard */,
 				3BEBDE9A245EF80B00C35BF6 /* Info.plist */,
@@ -138,6 +144,7 @@
 			files = (
 				3BEBDE99245EF80B00C35BF6 /* LaunchScreen.storyboard in Resources */,
 				3BEBDE96245EF80B00C35BF6 /* Preview Assets.xcassets in Resources */,
+				3BEBDEA3245EF8C200C35BF6 /* videoplayback.mp4 in Resources */,
 				3BEBDE93245EF80B00C35BF6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BEBDE8F245EF80A00C35BF6 /* HW3.xcdatamodeld in Sources */,
+				3BEBDEA1245EF87700C35BF6 /* SecondPage.swift in Sources */,
 				3BEBDE8A245EF80A00C35BF6 /* AppDelegate.swift in Sources */,
 				3BEBDE91245EF80A00C35BF6 /* ContentView.swift in Sources */,
 				3BEBDE8C245EF80A00C35BF6 /* SceneDelegate.swift in Sources */,
